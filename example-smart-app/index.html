@@ -6,6 +6,7 @@
     <title>Example-SMART-App</title>
 
     <link rel='stylesheet' type='text/css' href='./src/css/example-smart-app.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--
       Temporarily disable cerner-smart-embeddable-lib
       <link rel='stylesheet' type='text/css' href='./lib/css/cerner-smart-embeddable-lib-1.0.0.min.css'>
@@ -19,11 +20,12 @@
       <div class="bounce2"></div>
       <div class="bounce3"></div>
     </div>
-    <div id='holder' >
-      <h2>Example-SMART-App</h2>
+    <h2 class="navbar bg-dark text-light">Example-SMART-App</h2>
 
-      <h2>Patient Resource</h2>
-      <table>
+    <div id='holder' class="container">
+      
+      <h2 class="display-4">Patient Resource</h2>
+      <table clas=="table">
         <tr>
           <th>First Name:</th>
           <td id='fname'></td>
@@ -41,8 +43,8 @@
           <td id='birthdate'></td>
         </tr>
       </table>
-      <h2>Observation Resource</h2>
-      <table>
+      <h2 class="display-4">Observation Resource</h2>
+      <table class="table">
         <tr>
           <th>Height:</th>
           <td id='height'></td>
